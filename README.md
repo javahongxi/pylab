@@ -1,0 +1,2 @@
+# whatspy
+python study
