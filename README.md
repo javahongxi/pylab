@@ -1,2 +1,2 @@
-# whatspy
-### python study
+# pylab
+### Python Study
