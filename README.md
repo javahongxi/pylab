@@ -1,2 +1,1 @@
 # pylab
-### Python Study
