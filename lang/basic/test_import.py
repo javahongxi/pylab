@@ -1,4 +1,5 @@
-import loop, internal.internal_variable
+import loop
+import lang.basic.internal.internal_variable
 
 for x in loop.a:
     if x > 3:
