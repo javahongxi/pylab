@@ -2,8 +2,9 @@ def add(x, y):
     return x + y
 
 
-def println(value):
+def log(value):
     print(value)
 
 
-println(add(1, 2))
+print('1 + 2 =', add(1, 2))
+print(log("Hello"))
