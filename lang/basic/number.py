@@ -6,5 +6,8 @@ print(d, f, b, c)
 
 print(bin(d), oct(d), hex(d))
 
+print(1 / 2)
+print(1 // 2)
+
 d, f = f, d
 print(d, f)
