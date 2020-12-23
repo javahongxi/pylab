@@ -1,6 +1,6 @@
 from student import Student
 
-student = Student('Lily', 24)
+student = Student('Lily', 24, '武汉大学')
 print(student.name)
 print(student.age)
 student.to_str()
@@ -19,8 +19,8 @@ if result:
 
 student.to_str()
 
-lucy = Student('Lucy', 24)
-lee = Student('Lee', 25)
+lucy = Student('Lucy', 24, '武汉大学')
+lee = Student('Lee', 25, '武汉大学')
 # 这里实际上是新创建一个实例变量，动态语言特性
 lucy.__score = -1
 # print(lucy.__score)

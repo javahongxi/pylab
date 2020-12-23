@@ -1,21 +1,24 @@
+from human import Human
+
+
 # 类
-class Student():
-    # 类变量
-    total = 0
+class Student(Human):
 
     # 构造函数
     # self 名字任意
-    def __init__(self, name, age):
+    def __init__(self, name, age, school):
         # 实例变量
-        self.name = name # public
-        self.age = age
+        super().__init__(name, age)
+        self.school = school # public
         self.__score = 0 # private
         # 构造函数中访问类变量
         self.__class__.total += 1
 
     # 实例方法
     def to_str(self):
-        print(self.name, self.age, self.__score)
+        # super(Student, self).to_str()
+        super().to_str()
+        print(self.name, self.age, self.school, self.__score)
 
     # 实例变量建议私有，通过提供方法来修改值
     def marking(self, score):
