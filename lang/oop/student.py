@@ -1,13 +1,15 @@
-
+# 类
 class Student():
-    name = ''
-    age = 0
+    # 类变量
+    total = 0
 
-    def print_file(self):
+    # self 名字任意
+    def __init__(self, name, age):
+        # 实例变量
+        self.name = name
+        self.age = age
+        # 构造函数或实例方法中获取类变量
+        print(self.__class__.total)
+
+    def to_str(self):
         print(self.name, self.age)
-
-
-student = Student()
-student.name = 'Lily'
-student.age = 24
-student.print_file()
