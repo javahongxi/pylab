@@ -32,3 +32,7 @@ words = """今天只有残留的躯壳
 迎接光辉岁月"""
 print(words)
 print("风雨中抱紧自由")
+
+name = 'lily'
+age = 24
+print(f'name:{name}, age: {age}')
