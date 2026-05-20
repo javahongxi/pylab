@@ -5,4 +5,4 @@ Python 实验室
 - lang: Python 语法学习
 - pythonic: Python 代码风格演示
 
-&copy; [hongxi.org](http://hongxi.org) | [python.hongxi.org](http://python.hongxi.org)
+&copy; [hongxi.org](http://hongxi.org)
